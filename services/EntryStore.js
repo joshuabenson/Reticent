@@ -6,3 +6,4 @@ export class EntryStore {
     this.myAppEntry.unshift({text:item, done:false});
   }
 }
+//myAppEntry
