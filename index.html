@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Angular Best Buy App</title>
+    <script src="/dist/es6-shim.js"></script>
+  </head>
+  <body>
+    <todo-app>Warming up...</todo-app>
+    <script>
+      System.paths = {
+          'angular2/*':'/angular2/*.js',
+          'rtts_assert/*': '/rtts_assert/*.js',
+          'services/*' : '/services/*.js',
+          'todoApp': 'MyApp.es6'
+      };
+      System.import('myAppStore');
+    </script>
+  </body>
+</html>
